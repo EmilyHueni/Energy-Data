@@ -1,6 +1,9 @@
 Energy-Data
 ===========
 
+![](http://www.liamwagner.com/images/Phuket.jpg)
+
+
 Open Energy Data Project
 =======
 This project will allow a user to acquire the latest energy data sets that are publicly available. Only publicly available data will be included into the database, however I will be providing links to subscription services that others may find useful.
