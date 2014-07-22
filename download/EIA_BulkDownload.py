@@ -18,6 +18,12 @@ except OSError:
     pass
 print('.', end='', flush=True)
 
+# Firstly you may want to download the manifest
+URL ="http://api.eia.gov/bulk/manifest.txt"
+filename = "EIA_data/PET.zip"
+urllib.request.urlretrieve(URL, filename)
+print(' EIA Manifest Done') 
+
 #Download all files from the EIA, US Department of Energy bulk data facility
 ####BEWARE these data sets are VERY LARGE (>2Gb for all files)
 
