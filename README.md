@@ -9,3 +9,5 @@ Download the data
 =======
 Firstly, we must acquire the data.
 * **EIA** API data bank is a rapidly growing data bank. The first scrapper acquires the data (>2Gb)
+  * Energy-Data / download / EIA_BulkDownload.py
+
