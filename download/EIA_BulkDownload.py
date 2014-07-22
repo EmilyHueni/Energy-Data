@@ -12,7 +12,7 @@ import urllib.request
 import os
 
 try:
-    os.makedirs("EIA_data")
+    os.makedirs("datasources/EIA_data")
 except OSError:
     #Directory either already exists or permission denied
     pass
@@ -20,7 +20,7 @@ print('.', end='', flush=True)
 
 # Firstly you may want to download the manifest
 URL ="http://api.eia.gov/bulk/manifest.txt"
-filename = "EIA_data/PET.zip"
+filename = "datasources/EIA_data/PET.zip"
 urllib.request.urlretrieve(URL, filename)
 print(' EIA Manifest Done') 
 
@@ -28,37 +28,37 @@ print(' EIA Manifest Done')
 ####BEWARE these data sets are VERY LARGE (>2Gb for all files)
 
 URL ="http://api.eia.gov/bulk/PET.zip"
-filename = "EIA_data/PET.zip"
+filename = "datasources/EIA_data/PET.zip"
 urllib.request.urlretrieve(URL, filename)
 print(' Petroleum and other liquid fuels Done')
 
 URL ="http://api.eia.gov/bulk/SEDS.zip"
-filename = "EIA_data/SEDS.zip"
+filename = "datasources/EIA_data/SEDS.zip"
 urllib.request.urlretrieve(URL, filename)
 print(' State Energy Data System Done')
 
 URL ="http://api.eia.gov/bulk/AEO.zip"
-filename = "EIA_data/AEO.zip"
+filename = "datasources/EIA_data/AEO.zip"
 urllib.request.urlretrieve(URL, filename)
 print(' Annual Energy Outlook Done')
 
 URL ="http://api.eia.gov/bulk/COAL.zip"
-filename = "EIA_data/COAL.zip"
+filename = "datasources/EIA_data/COAL.zip"
 urllib.request.urlretrieve(URL, filename)
 print(' Coal Done')
 
 URL ="http://api.eia.gov/bulk/ELEC.zip"
-filename = "EIA_data/ELEC.zip"
+filename = "datasources/EIA_data/ELEC.zip"
 urllib.request.urlretrieve(URL, filename)
 print(' Electricity Done')
 
 URL ="http://api.eia.gov/bulk/NG.zip"
-filename = "EIA_data/NG.zip"
+filename = "datasources/EIA_data/NG.zip"
 urllib.request.urlretrieve(URL, filename)
 print(' Natural Gas Done')
 
 URL ="http://api.eia.gov/bulk/STEO.zip"
-filename = "EIA_data/STEO.zip"
+filename = "datasources/EIA_data/STEO.zip"
 urllib.request.urlretrieve(URL, filename)
 print(' Short-Term Energy Outlook Done')
 
