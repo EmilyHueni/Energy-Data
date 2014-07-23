@@ -20,7 +20,7 @@ print('.', end='', flush=True)
 
 # Firstly you may want to download the manifest
 URL ="http://api.eia.gov/bulk/manifest.txt"
-filename = "datasources/EIA_data/PET.zip"
+filename = "datasources/EIA_data/manifest.txt"
 urllib.request.urlretrieve(URL, filename)
 print(' EIA Manifest Done') 
 
