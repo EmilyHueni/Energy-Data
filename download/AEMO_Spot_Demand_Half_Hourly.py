@@ -74,7 +74,7 @@ for allstate in allstates:
     for allyear in allyears:
         for month in months:
             try:
-                shutil.move("./"+"DATA"+allyear+month+allstate+ext,"./AEMO/"+allstate+"/")
+                shutil.move("./"+"DATA"+allyear+month+allstate+ext,"./AEMO/Spot/"+allstate+"/")
             except OSError:
                 pass
             print('.', end='', flush=True)
