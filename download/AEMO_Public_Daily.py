@@ -41,7 +41,7 @@ print('.', end='', flush=True)
 
 for index in range(len(result)):
     try:
-        shutil.move("PUBLIC_NETWORK_"+result[index],"./AEMO/Public_Daily/")
+        shutil.move("PUBLIC_DAILY_"+result[index],"./AEMO/Public_Daily/")
     except OSError:
         pass
 print('.', end='', flush=True)
