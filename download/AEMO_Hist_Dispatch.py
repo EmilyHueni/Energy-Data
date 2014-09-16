@@ -4,7 +4,7 @@
 # http://github.com/ldw77/Energy-Data/
 # All data downloaded by this script is provided copyright free by AEMO http://www.aemo.com.au
 
-# This script will download all available data for the Last 90 Days, sort and place all files in
+# This script will download all available data for the Last 12 Months, sort and place all files in
 # a subdirectory DISPATCH. 
 
 
